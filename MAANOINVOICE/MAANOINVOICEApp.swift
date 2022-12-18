@@ -13,7 +13,7 @@ struct MAANOINVOICEApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InvoiceTemplate()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

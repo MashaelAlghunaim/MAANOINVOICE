@@ -4,11 +4,11 @@
 //
 //  Created by Mashael Alghunaim on 12/05/1444 AH.
 //
-
+//
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct ContenttView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -81,8 +81,11 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct ContenttView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        ContenttView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+
+
+

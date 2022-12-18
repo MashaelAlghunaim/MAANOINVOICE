@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62417068294EF6AF00B20352 /* InvoiceTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62417067294EF6AF00B20352 /* InvoiceTemp.swift */; };
+		6251CA83294B03BB00A8A737 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251CA82294B03BB00A8A737 /* UserForm.swift */; };
+		6251CA87294B098200A8A737 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251CA86294B098200A8A737 /* Item.swift */; };
+		6298E620294C6D2E000D4F64 /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E61F294C6D2E000D4F64 /* InvoiceView.swift */; };
+		6298E623294C862E000D4F64 /* InvoiceCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E621294C7E31000D4F64 /* InvoiceCustomize.swift */; };
+		6298E625294CA941000D4F64 /* NewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E624294CA941000D4F64 /* NewItem.swift */; };
+		6298E627294DE93E000D4F64 /* InvoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E626294DE93E000D4F64 /* InvoiceViewModel.swift */; };
+		6298E62D294E279F000D4F64 /* InvoiceTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E62C294E279F000D4F64 /* InvoiceTemplateView.swift */; };
+		6298E62F294E36CC000D4F64 /* InvoiceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298E62E294E36CC000D4F64 /* InvoiceTemplate.swift */; };
 		62FFAE68293F66B000E7F7AE /* MAANOINVOICEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAE67293F66B000E7F7AE /* MAANOINVOICEApp.swift */; };
-		62FFAE6A293F66B000E7F7AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAE69293F66B000E7F7AE /* ContentView.swift */; };
+		62FFAE6A293F66B000E7F7AE /* ContenttView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAE69293F66B000E7F7AE /* ContenttView.swift */; };
 		62FFAE6C293F66B100E7F7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFAE6B293F66B100E7F7AE /* Assets.xcassets */; };
 		62FFAE6F293F66B100E7F7AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFAE6E293F66B100E7F7AE /* Preview Assets.xcassets */; };
 		62FFAE71293F66B100E7F7AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAE70293F66B100E7F7AE /* Persistence.swift */; };
@@ -16,9 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62417067294EF6AF00B20352 /* InvoiceTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceTemp.swift; sourceTree = "<group>"; };
+		6251CA82294B03BB00A8A737 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
+		6251CA86294B098200A8A737 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6298E61F294C6D2E000D4F64 /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
+		6298E621294C7E31000D4F64 /* InvoiceCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceCustomize.swift; sourceTree = "<group>"; };
+		6298E624294CA941000D4F64 /* NewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItem.swift; sourceTree = "<group>"; };
+		6298E626294DE93E000D4F64 /* InvoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceViewModel.swift; sourceTree = "<group>"; };
+		6298E62C294E279F000D4F64 /* InvoiceTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceTemplateView.swift; sourceTree = "<group>"; };
+		6298E62E294E36CC000D4F64 /* InvoiceTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 0; lastKnownFileType = sourcecode.swift; path = InvoiceTemplate.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; wrapsLines = 1; };
 		62FFAE64293F66B000E7F7AE /* MAANOINVOICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAANOINVOICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FFAE67293F66B000E7F7AE /* MAANOINVOICEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAANOINVOICEApp.swift; sourceTree = "<group>"; };
-		62FFAE69293F66B000E7F7AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62FFAE69293F66B000E7F7AE /* ContenttView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenttView.swift; sourceTree = "<group>"; };
 		62FFAE6B293F66B100E7F7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FFAE6E293F66B100E7F7AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62FFAE70293F66B100E7F7AE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -37,9 +55,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		624964FB2949B960003ABB03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6298E624294CA941000D4F64 /* NewItem.swift */,
+				6298E621294C7E31000D4F64 /* InvoiceCustomize.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6298E62A294E0790000D4F64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6298E626294DE93E000D4F64 /* InvoiceViewModel.swift */,
+				6251CA86294B098200A8A737 /* Item.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6298E62B294E079B000D4F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62FFAE69293F66B000E7F7AE /* ContenttView.swift */,
+				6298E61F294C6D2E000D4F64 /* InvoiceView.swift */,
+				6298E62E294E36CC000D4F64 /* InvoiceTemplate.swift */,
+				62417067294EF6AF00B20352 /* InvoiceTemp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		62FFAE5B293F66B000E7F7AE = {
 			isa = PBXGroup;
 			children = (
+				6298E62C294E279F000D4F64 /* InvoiceTemplateView.swift */,
+				6251CA82294B03BB00A8A737 /* UserForm.swift */,
 				62FFAE66293F66B000E7F7AE /* MAANOINVOICE */,
 				62FFAE65293F66B000E7F7AE /* Products */,
 			);
@@ -57,9 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				62FFAE67293F66B000E7F7AE /* MAANOINVOICEApp.swift */,
-				62FFAE69293F66B000E7F7AE /* ContentView.swift */,
-				62FFAE6B293F66B100E7F7AE /* Assets.xcassets */,
+				624964FB2949B960003ABB03 /* Model */,
+				6298E62B294E079B000D4F64 /* View */,
+				6298E62A294E0790000D4F64 /* ViewModel */,
 				62FFAE70293F66B100E7F7AE /* Persistence.swift */,
+				62FFAE6B293F66B100E7F7AE /* Assets.xcassets */,
 				62FFAE75293F66B100E7F7AE /* Info.plist */,
 				62FFAE72293F66B100E7F7AE /* MAANOINVOICE.xcdatamodeld */,
 				62FFAE6D293F66B100E7F7AE /* Preview Content */,
@@ -145,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6298E62D294E279F000D4F64 /* InvoiceTemplateView.swift in Sources */,
+				6298E62F294E36CC000D4F64 /* InvoiceTemplate.swift in Sources */,
+				6251CA87294B098200A8A737 /* Item.swift in Sources */,
 				62FFAE71293F66B100E7F7AE /* Persistence.swift in Sources */,
-				62FFAE6A293F66B000E7F7AE /* ContentView.swift in Sources */,
+				62FFAE6A293F66B000E7F7AE /* ContenttView.swift in Sources */,
+				6298E623294C862E000D4F64 /* InvoiceCustomize.swift in Sources */,
+				6251CA83294B03BB00A8A737 /* UserForm.swift in Sources */,
+				62417068294EF6AF00B20352 /* InvoiceTemp.swift in Sources */,
+				6298E620294C6D2E000D4F64 /* InvoiceView.swift in Sources */,
+				6298E625294CA941000D4F64 /* NewItem.swift in Sources */,
+				6298E627294DE93E000D4F64 /* InvoiceViewModel.swift in Sources */,
 				62FFAE74293F66B100E7F7AE /* MAANOINVOICE.xcdatamodeld in Sources */,
 				62FFAE68293F66B000E7F7AE /* MAANOINVOICEApp.swift in Sources */,
 			);
